@@ -1,0 +1,54 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+.match{
+  margin: 2em 0 5em 1em;
+}
+.inning{
+  border: 1px solid black;
+  width: 100%;
+}
+.inning, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: .3em
+}
+.inning td{
+  margin-left: .5em
+}
+.batsman-info, .bowler-info{
+  text-align: center;
+}
+.team-score{
+  margin: 1em 0 0 -.05em;
+  display: flex;
+  border: 1px rgb(61, 61, 61);
+  background-color: darkslategray;
+  padding-left: .3em;
+  /* width: 60%; */
+  color: azure;
+}
+.score{
+  margin: 1.2em 0 0 45em;
+}
+.page-load{
+  text-align: center;
+  margin: 3em 0 0 20em;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+.point-table, td, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: .3em
+}
